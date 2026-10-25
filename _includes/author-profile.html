@@ -10,7 +10,10 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    	<picture>
+    	  {% if author.avatar_heic %}<source srcset="{{ author.avatar_heic | prepend: "/images/" | prepend: base_path }}" type="image/heic" />{% endif %}
+    	  <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    	</picture>
     {% endif %}
   </div>
 
@@ -35,6 +38,9 @@
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% endif %}
+      {% if author.credly %}
+        <li><a href="{{ author.credly }}"><i class="fas fa-fw fa-certificate icon-pad-right" aria-hidden="true"></i>Credly</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
