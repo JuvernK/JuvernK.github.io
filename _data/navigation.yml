@@ -11,12 +11,10 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Teaching"
-    url: /teaching/
-
   - title: "CV"
     url: /cv/
 
+  # Teaching has a single entry, so it lives on the home page instead of the header.
   # Publications, talks, blog posts, and the template guide are not in the
   # header. The resume has no papers, talks, or posts, and the sample entries
   # were removed.

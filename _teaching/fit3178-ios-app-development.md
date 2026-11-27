@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant — FIT3178 iOS App Development"
+title: "Teaching Assistant, FIT3178 iOS App Development"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/fit3178-ios-app-development/

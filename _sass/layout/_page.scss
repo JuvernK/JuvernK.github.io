@@ -410,3 +410,123 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Landing page (home)
+   ========================================================================== */
+
+.home-tagline {
+  font-size: 1.35em;
+  line-height: 1.4;
+  margin: 0 0 0.6em;
+}
+
+.home-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0.25em 0.8em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 999px;
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+  }
+}
+
+.home-hero {
+  position: relative;
+  margin: 0 0 2em;
+
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    background: #111;
+  }
+
+  figcaption {
+    margin-top: 0.5em;
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+  }
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2em;
+  margin: 0 0 2em;
+}
+
+.home-card {
+  display: block;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  overflow: hidden;
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &, &:hover, &:visited, * {
+    color: var(--global-text-color);
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+  }
+
+  p {
+    color: var(--global-text-color-light);
+  }
+
+  .home-card__placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.2));
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .home-card__body {
+    padding: 0.9em 1em 1em;
+  }
+
+  h3 {
+    margin: 0 0 0.3em;
+    font-size: 1.05em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+  }
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin: 0 0 1em;
+}

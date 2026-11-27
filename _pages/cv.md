@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<a class="btn btn--primary" href="{{ '/files/Juvern_Khor_Resume.pdf' | relative_url }}" download>Download resume (PDF)</a>
+
 Profile
 ======
 
@@ -32,7 +34,7 @@ Experience
   * Integrated RESTful APIs for upload, retrieval and extraction operations, and handled asynchronous data flows using Angular services and Observable subscriptions.
   * Implemented and refined UI components based on project requirements, with a focus on usability, maintainability and visual consistency.
   * Debugged frontend issues and fixed UI and integration bugs, using SourceTree and GitHub for version control and collaborative development.
-* **Teaching Assistant — FIT3178 iOS App Development**, Monash University, Jul 2026 – Nov 2026
+* **Teaching Assistant, FIT3178 iOS App Development**, Monash University, Jul 2026 – Nov 2026
   * Supported students in Swift and iOS app development laboratories, helping them debug and build SwiftUI applications.
   * Recognised for Educational Excellence and added to the Monash MEA Teaching Excellence Register.
 
