@@ -12,7 +12,7 @@ site_theme               : "sunrise" # The available themes options are "default
 title                    : "Juvern's Website"
 title_separator          : "-"
 name                     : &name "Jun Yong Khor (Juvern)"
-description              : &description "Welcome to my personal websites. Feel free explore the websites to know more about me!"  
+description              : &description "Master of Artificial Intelligence (Monash University). Builds iOS and visionOS spatial applications, machine learning and computer vision systems, and cloud software."  
 url                      : https://JuvernK.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,9 +27,9 @@ author:
   avatar_heic      : "grads_photo.heic" # optional, shown instead where the browser supports HEIC (Safari)
   name             : "Jun Yong Khor (Juvern)"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "My expertise is in the field of technology, specially Artificial Intelligence. I hold a Master of Artificial Intelligence degree from Monash University (currently ranked #31 in the world according to the QS World University Rankings 2027)"
-  location         : "Melbourne, Australia"
-  employer         : "Sessional Tutor at Monash University"
+  bio              : "Master of Artificial Intelligence (Monash University). Interested in spatial computing, Apple platforms, and agentic AI."
+  location         : "Melbourne, VIC"
+  employer         : "Teaching Assistant, Monash University (Jul–Nov 2026)"
   uri              : # URL
   email            : "junyongkhor0621@gmail.com"
   credly           : "https://www.credly.com/users/jun-yong-khor" # Certifications (AWS)
@@ -97,7 +97,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -127,7 +127,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # no posts; hide the empty RSS link in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -145,14 +145,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 :  # Social media default site image. Left unset: this theme treats og_image as an Organization logo.
+og_description           : "Master of Artificial Intelligence (Monash University). Interested in spatial computing, Apple platforms, and agentic AI. Builds iOS and visionOS spatial applications, machine learning and computer vision systems, and cloud software."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Jun Yong Khor (Juvern)"
+  links:
+    - "https://github.com/JuvernK"
+    - "https://www.linkedin.com/in/jun-yong-khor-7547a3296"
+    - "https://www.credly.com/users/jun-yong-khor"
 
 
 # Analytics

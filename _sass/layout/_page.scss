@@ -55,6 +55,17 @@
     border-bottom: 1px solid var(--global-border-color);
   }
 
+  /* Keep thesis media inside the column on narrow screens. */
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  video {
+    display: block;
+  }
+
   p, li, dl {
     font-size: 1em;
   }

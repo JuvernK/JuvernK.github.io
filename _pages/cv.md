@@ -9,74 +9,72 @@ redirect_from:
 
 {% include base_path %}
 
+Profile
+======
+
+Master of Artificial Intelligence (H2A; High Distinction thesis, 83/100) and Bachelor of Computer Science graduate from Monash University. Interested in spatial computing and Apple platforms, and in agentic AI. Builds iOS and visionOS spatial applications, machine learning and computer vision systems, and cloud software. Seeking graduate Software Engineer, AI/ML Engineer or iOS Engineer roles.
+
 Education
 ======
-* **Master of Artificial Intelligence**, Monash University, Jul 2024 - Jul 2026
-  * Final course mark: 76/100 (H2A)
-  * Master's Thesis: 83/100 (High Distinction)
-* **Bachelor of Computer Science**, Monash University Malaysia, Feb 2022 - Jun 2024
-* **Diploma in Higher Education Studies**, Monash University Malaysia, Mar 2021 - Nov 2021
+
+* **Master of Artificial Intelligence**, Monash University, Clayton, Jul 2024 – Jul 2026
+  * H2A, final course mark 76; Master's thesis High Distinction (83/100)
+  * Relevant units — AI/ML: Fundamentals of Artificial Intelligence (HD), Deep Learning (HD), Machine Learning, Natural Language Processing, Multi-Agent Systems and Collective Behaviour, Planning and Automated Reasoning. Data: Data Wrangling, Data Processing for Big Data. Cloud/SE: Cloud Computing and Security, Software Engineering, Project Management (HD), Professional Practice.
+* **Bachelor of Computer Science**, Monash University Malaysia, 2021 – 2024
+  * Including a Diploma of Higher Education Studies pathway.
+  * Relevant units — Mobile Application Development, Object Oriented Design and Implementation (HD, Java), Introduction to Cyber Security (HD), Databases, Image Processing, Parallel Computing, Advanced Data Structures and Algorithms, Operating Systems, Computer Science Project 2 (HD).
 
 Experience
 ======
-* **Sessional Tutor**, Monash University, 2026 - present
-  * Lab tutor for FIT3178 iOS Development
-  * Walk students through weekly labs, review their submitted work one-on-one, and guide them in building an iOS app of their own choosing
 
-* **Frontend Intern**, Agmo Group, Nov 2023 - Feb 2024
-  * Developed responsive web pages using Angular, HTML, and Tailwind CSS across different screen sizes and devices
-  * Integrated RESTful APIs and handled asynchronous data flows using Angular services and Observables
-  * Implemented and refined UI components with a focus on usability, maintainability, and visual consistency
-  * Debugged UI and integration issues, using SourceTree and GitHub for version control and collaboration
+* **Frontend Intern**, Agmo Group, Nov 2023 – Feb 2024
+  * Developed responsive web pages using Angular, TypeScript, HTML and Tailwind CSS, ensuring layouts worked across different screen sizes and devices.
+  * Integrated RESTful APIs for upload, retrieval and extraction operations, and handled asynchronous data flows using Angular services and Observable subscriptions.
+  * Implemented and refined UI components based on project requirements, with a focus on usability, maintainability and visual consistency.
+  * Debugged frontend issues and fixed UI and integration bugs, using SourceTree and GitHub for version control and collaborative development.
+* **Teaching Assistant — FIT3178 iOS App Development**, Monash University, Jul 2026 – Nov 2026
+  * Supported students in Swift and iOS app development laboratories, helping them debug and build SwiftUI applications.
+  * Recognised for Educational Excellence and added to the Monash MEA Teaching Excellence Register.
 
-Research & Projects
+Projects
 ======
-* **ICU Nurse Handover with Apple Vision Pro**, Master's Thesis (High Distinction), 2025 - 2026
-  * Built a visionOS prototype exploring how mixed reality can support ICU nurse handover by reducing context switching
-  * Designed an immersive spatial interface that presents handover information as interactive cards
-  * Implemented real-time collaboration with SharePlay (GroupActivities, GroupSessionMessenger), synchronising layout, card state, and position across participants, with catch-up sync for late joiners
-  * Evaluated through a user study with practising nurses and PhD nursing students
-  * *Swift, SwiftUI, RealityKit, SharePlay, visionOS*
 
-* **Player Tracking & Action Recognition in Badminton**, Bachelor's Final Year Project, 2023
-  * Developed a computer vision system for player tracking and action recognition in badminton doubles matches
-  * Placed 2nd for the Undergraduate Project Award (bp Business Service Center Asia Sdn. Bhd. Project Award)
-  * *Python, computer vision*
-
-* **Machine Learning Fundamentals from Scratch**, Academic Project (93/100)
-  * Implemented scikit-learn-compatible KNN, ridge regression, and Gaussian Bayes classifiers from first principles
-  * Designed reproducible cross-validation, nested hyperparameter selection, and learning-curve experiments to analyse bias-variance trade-offs and regularisation
-  * Achieved 98.2% held-out test accuracy with logistic regression when comparing discriminative and generative classifiers
-  * *Python, NumPy, SciPy, scikit-learn*
+* **ICU Nurse Handover App — Apple Vision Pro**, Master's Minor Thesis, High Distinction (83/100)
+  * Swift, SwiftUI, RealityKit, SharePlay, visionOS
+  * Built a visionOS mixed-reality prototype for ICU nurse handovers on Apple Vision Pro, exploring how spatial presentation can support handover and improve information retention by reducing context switching.
+  * Designed an immersive spatial interface in which clinical handover information is presented as interactive cards aligned with the handover context.
+  * Implemented SharePlay-based real-time collaboration using Apple's GroupActivities and GroupSessionMessenger, with Codable messages and catch-up state synchronisation so late joiners maintain a consistent shared dashboard layout, card state and position.
+  * Developed interactive spatial features using RealityKit and SwiftUI attachments, including draggable cards, tap gestures, spatial positioning and immersive dashboard interaction.
+  * Evaluated the prototype in a user study with practising nurses and PhD nursing students.
+  * [Project page](/portfolio/icu-nurse-handover/) · [Case study](/portfolio/icu-nurse-handover/case-study/)
+* **Player Tracking and Action Recognition in Badminton**, Bachelor's Final Year Project, 2nd place
+  * Computer Vision, Python, OpenCV
+  * Developed a computer vision system for player tracking and action recognition in badminton doubles matches.
+  * Placed 2nd for the Undergraduate Project Award (bp Business Service Center Asia Sdn. Bhd. Project Award).
+  * [Project page](/portfolio/badminton-player-tracking/)
 
 Skills
 ======
-* **Programming:** Python, Swift, Java, C, SQL, TypeScript/JavaScript, HTML/CSS
-* **AI & Machine Learning:** supervised learning, deep learning (CNNs, RNNs, Transformers), natural language processing, computer vision and image processing, multi-agent systems, automated planning and search
-* **ML & Data Libraries:** PyTorch, TensorFlow/Keras, scikit-learn, OpenCV, NumPy, SciPy, pandas, Matplotlib
-* **Data Engineering:** data wrangling and cleaning, relational database design, PySpark and Spark ML, MongoDB
-* **Cloud & Security:** AWS (Lambda, S3, DynamoDB, Cognito, IAM), serverless architecture, authentication and authorisation, least-privilege access control
-* **Apple Platforms:** SwiftUI, RealityKit, visionOS, SharePlay
-* **Web:** Angular, Tailwind CSS, RESTful APIs
-* **Software Engineering:** object-oriented design, Agile/Scrum, Git, Docker
-* **Systems:** parallel computing (MPI, OpenMP), operating systems, computer architecture
-* **Research & Delivery:** user studies, IT research methods, project management
-* **Languages:** English, Chinese, Malay
 
-Relevant Coursework
-======
-* **AI & ML:** Deep Learning (HD), Fundamentals of AI (HD), Machine Learning, Natural Language Processing, Multi-Agent Systems, Planning and Automated Reasoning, Image Processing
-* **Data:** Data Wrangling, Data Processing for Big Data, Databases
-* **Software & Systems:** Object-Oriented Design and Implementation (HD), Software Engineering, Advanced Data Structures and Algorithms, Parallel Computing, Operating Systems
-* **Cloud & Security:** Cloud Computing and Security, Introduction to Cyber Security (HD)
-* **Professional:** Project Management (HD), IT Research Methods
+* **Proficient:** Python, Swift
+* **iOS & Spatial:** SwiftUI, RealityKit, visionOS, SharePlay, GroupActivities
+* **Familiar with:**
+  * Languages: Java, C, SQL, TypeScript, JavaScript, HTML, CSS
+  * AI/ML: PyTorch, TensorFlow, Keras, OpenCV, PySpark, pandas, NumPy, SciPy, scikit-learn, Matplotlib
+  * Web: Angular, Tailwind CSS, RESTful APIs
+  * Cloud & DevOps: AWS (Lambda, S3, DynamoDB, Cognito, IAM), Docker
+  * Databases: Oracle, MySQL, PostgreSQL, MongoDB
+  * Tools & AI-assisted development: Git, GitHub, SourceTree, Claude Code, Codex (agentic coding workflows)
+* **Spoken languages:** English, Mandarin Chinese, Malay
 
 Certifications
 ======
-* AWS Certified AI Practitioner, Sep 2026
-* AWS Certified Cloud Practitioner, Sep 2026
+
+* AWS Certified Cloud Practitioner (2026)
+* AWS Certified AI Practitioner (2026)
 * Verify on [Credly](https://www.credly.com/users/jun-yong-khor)
 
 Awards
 ======
-* **bp Business Service Center Asia Sdn. Bhd. Project Award**, 2nd Best Computer Science/Data Science Undergraduate Project, for player tracking and action recognition in badminton doubles matches
+
+* **bp Business Service Center Asia Sdn. Bhd. Project Award** — 2nd Best Computer Science/Data Science Undergraduate Project Award, for player tracking and action recognition in badminton doubles matches.

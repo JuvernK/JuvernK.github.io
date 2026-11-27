@@ -1,18 +1,9 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+"Jun Yong Khor (Juvern)":
+  name        : "Jun Yong Khor (Juvern)"
+  email       : "junyongkhor0621@gmail.com"
+  bio         : "Master of Artificial Intelligence (Monash University). Interested in spatial computing, Apple platforms, and agentic AI."
+  avatar      : "grads_photo.jpg"
+  github      : "JuvernK"
+  linkedin    : "jun-yong-khor-7547a3296"

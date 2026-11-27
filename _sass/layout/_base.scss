@@ -204,15 +204,29 @@ figure {
 
   img,
   iframe,
+  video,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
   }
 
-  img {
+  img,
+  video {
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 0;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+  }
+
+  video {
+    display: block;
+    background-color: #111;
+  }
+
+  figcaption {
+    width: 100%;
   }
 
   > a {
